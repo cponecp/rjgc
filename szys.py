@@ -5,21 +5,21 @@ from fractions import Fraction
 
 def question():
     all_operator = ['+', '-', '*', '/']
-    max_operator_count = 5
-    min_operator_count = 2
+    max_operator_amount = 5
+    min_operator_amount = 2
     max_number = 10
-    operator_count = random.randint(min_operator_count, max_operator_count)
+    operator_amount = random.randint(min_operator_amount, max_operator_amount)
     random_operator = []
-    for i in range(operator_count):
+    for i in range(operator_amount):
         random_operator.append(random.randint(0, len(all_operator)-1))
     random_number = [str(random.randint(1, max_number))]
-    for i in range(operator_count):
+    for i in range(operator_amount):
         if random_operator[i] == 3:
             random_number.append(str(random.randint(1, max_number)))
         else:
             random_number.append(str(random.randint(0, max_number)))
     expression = random_number[0]
-    for i in range(operator_count):
+    for i in range(operator_amount):
         expression = expression + all_operator[random_operator[i]] + random_number[i+1]
     result = Fraction(eval(expression)).limit_denominator(100000000)
     print(expression, "=", end=' ')
