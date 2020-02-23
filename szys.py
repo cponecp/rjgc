@@ -38,7 +38,7 @@ def start_answer(question_amount1):
             print('回答正确')
             answer_true_amount += 1
         else:
-            print('回答错误，正确结果是:', result)
+            print('回答错误，正确答案为:', result)
         question_number += 1
     correct_rate = answer_true_amount / question_total_amount
     print("您的得分为%.2f，正确率为%.2f%%" % (correct_rate*100, correct_rate*100))
