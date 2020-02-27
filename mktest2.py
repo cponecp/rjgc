@@ -21,9 +21,12 @@ def find_word(word, document):
                     has_punctuation = 1
                     sentence += 1
                     for k in range(0, j):
-                        if word_punctuation[k] == word:
+                        if word_punctuation[k].lower() == word.lower():
                             word_amount += 1
-                            print('{0}/{1},'.format(sentence, k+1), end='')
+                            if word_amount > 1:
+                                print(',{0}/{1}'.format(sentence, k+1), end='')
+                            else:
+                                print('{0}/{1}'.format(sentence, k + 1), end='')
                     for k in range(j, -1, -1):
                         del word_punctuation[k]
                     break
