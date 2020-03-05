@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="145e4591-8e82-488c-b0dd-d8dba05cf519" name="Default Changelist" comment="mktest2">
+    <list default="true" id="145e4591-8e82-488c-b0dd-d8dba05cf519" name="Default Changelist" comment="生命游戏">
+      <change beforePath="$PROJECT_DIR$/.idea/rjgc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rjgc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,13 +16,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game_map.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1007">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mktest2_optimization.py">
+        <entry file="file://$PROJECT_DIR$/test_game_map.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <element signature="e#72#81#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,6 +68,11 @@
         <option value="$PROJECT_DIR$/query.txt" />
         <option value="$PROJECT_DIR$/mktest2_opotimization.py" />
         <option value="$PROJECT_DIR$/mktest2_optimization.py" />
+        <option value="$PROJECT_DIR$/life_game.py" />
+        <option value="$PROJECT_DIR$/life_game/main.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/saa.py" />
+        <option value="$PROJECT_DIR$/test_game_map.py" />
       </list>
     </option>
   </component>
@@ -72,7 +87,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -84,12 +98,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="E:/weixin/pycharm/Scripts/pylint.exe" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="pyconsole" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\rjgc\life_game" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -103,8 +123,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mktest2">
-    <configuration name="mktest2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_game_map.TestGameMap">
+    <configuration name="saa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="rjgc" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,7 +136,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mktest2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/saa.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="szys" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="unittest_coverage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="rjgc" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,7 +157,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/szys.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest_coverage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,32 +166,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for test_game_map.TestGameMap" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="rjgc" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\project\rjgc\test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_game_map.TestGameMap&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_game_map.TestGameMap.test_print_map" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="rjgc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_game_map.TestGameMap.test_print_map&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_game_map.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="rjgc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_game_map.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mktest2" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.szys" />
+        <item itemvalue="Python tests.Unittests for test_game_map.TestGameMap" />
+        <item itemvalue="Python.unittest_coverage" />
+        <item itemvalue="Python.saa" />
+        <item itemvalue="Python tests.Unittests in test_game_map.py" />
+        <item itemvalue="Python tests.Unittests for test_game_map.TestGameMap.test_print_map" />
       </list>
     </recent_temporary>
   </component>
@@ -249,8 +292,47 @@
       <option name="project" value="LOCAL" />
       <updated>1582861204512</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="mktest2">
+      <created>1583034750502</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583034750502</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_game_map_TestGameMap_test_print_map - 2020.03.02 at 16h 42m 52s.xml">
+      <configuration name="Unittests for test_game_map.TestGameMap.test_print_map" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_game_map_TestGameMap_test_print_map - 2020.03.02 at 16h 49m 22s.xml">
+      <configuration name="Unittests for test_game_map.TestGameMap.test_print_map" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.02 at 16h 50m 14s.xml">
+      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.02 at 16h 57m 55s.xml">
+      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_game_map_py - 2020.03.02 at 17h 08m 41s.xml">
+      <configuration name="Unittests in test_game_map.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_game_map_py - 2020.03.02 at 17h 09m 10s.xml">
+      <configuration name="Unittests in test_game_map.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_game_map_py - 2020.03.02 at 17h 27m 19s.xml">
+      <configuration name="Unittests in test_game_map.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 21h 38m 10s.xml">
+      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 21h 41m 22s.xml">
+      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 21h 49m 24s.xml">
+      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -270,13 +352,13 @@
       <window_info id="Favorites" order="2" sideWeight="0.5017544" side_tool="true" weight="0.24981017" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28245613" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2754386" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32982457" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32982457" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29473683" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.24385965" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32982457" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -385,42 +467,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readmee.py" />
-    <entry file="file://$PROJECT_DIR$/mktest2_performance_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-          <folding>
-            <element signature="e#72#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mktest2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="24" column="16" lean-forward="true" selection-end-line="57" />
           <folding>
             <element signature="e#72#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mktest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mktest0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="24" column="67" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -439,12 +491,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mktest2_optimization.py">
+    <entry file="file://E:/weixin/pycharm/Lib/profile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        <state relative-caret-position="118">
+          <caret line="421" selection-start-line="421" selection-end-line="421" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mktest2_performance_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
           <folding>
             <element signature="e#72#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mktest2_optimization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#72#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mktest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mktest0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life_game/test_game_map.py" />
+    <entry file="file://$PROJECT_DIR$/life_game/game_timer.py" />
+    <entry file="file://$PROJECT_DIR$/life_game/life_game.py" />
+    <entry file="file://$PROJECT_DIR$/life_game/game_map.py" />
+    <entry file="file://$PROJECT_DIR$/life_game/main.py" />
+    <entry file="file://E:/weixin/pycharm/Lib/unittest/mock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="1203" selection-start-line="1203" selection-end-line="1203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/weixin/pycharm/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="614" selection-start-line="614" selection-end-line="614" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="e#45#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+          <folding>
+            <element signature="e#98#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game_timer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_coverage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game_map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1007">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_game_map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
