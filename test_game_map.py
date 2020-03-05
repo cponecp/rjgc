@@ -46,7 +46,29 @@ class TestGameMap(TestCase):
         self.assertEqual(neighbor_count, self.game_map.get_neighbor_count_map())
 
     def test_set_map(self):
-        self.fail()
+        self.game_map.set_map([[1] * 5] * 5)
+        self.assertEqual([[1] * 5] * 5, self.game_map.cells)
+        self.game_map.set_map([[0] * 5] * 5)
+        self.assertEqual([[0] * 5] * 5, self.game_map.cells)
+        self.assertRaises(TypeError, self.game_map.set_map, {(0, 0, 0, 0, 0) * 5})
+        self.assertRaises(TypeError, self.game_map.set_map, [['1'] * 5] * 5)
+        self.assertRaises(AssertionError, self.game_map.set_map, [[1] * 4] * 4)
+        self.assertRaises(AssertionError, self.game_map.set_map, [[2] * 5] * 5)
 
     def test_print_map(self):
-        self.fail()
+        self.game_map.cells = [
+            [1, 1, 1, 0, 0],
+            [0, 0, 1, 1, 1],
+            [1, 1, 1, 1, 1],
+            [0, 0, 0, 0, 0],
+            [0, 0, 1, 0, 0]
+        ]
+        with mock.patch('builtins.print') as mock1:
+            self.game_map.print_map()
+            mock1.assert_has_calls([
+                mock.call('1 1 1 0 0'),
+                mock.call('0 0 1 1 1'),
+                mock.call('1 1 1 1 1'),
+                mock.call('0 0 0 0 0'),
+                mock.call('0 0 1 0 0')
+            ])

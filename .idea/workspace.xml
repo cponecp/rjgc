@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="145e4591-8e82-488c-b0dd-d8dba05cf519" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_game_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_game_map.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game_map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1121">
+            <state relative-caret-position="-2256">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_game_map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="45" column="80" selection-start-line="45" selection-start-column="80" selection-end-line="45" selection-end-column="80" />
+            <state relative-caret-position="-798">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -305,22 +306,17 @@
       <option name="project" value="LOCAL" />
       <updated>1583416576761</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="生命游戏game_map测试文件test_game_map前六个函数的测试程序">
+      <created>1583418390019</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583418390019</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.02 at 16h 57m 55s.xml">
-      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_game_map_py - 2020.03.02 at 17h 08m 41s.xml">
-      <configuration name="Unittests in test_game_map.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_game_map_py - 2020.03.02 at 17h 09m 10s.xml">
-      <configuration name="Unittests in test_game_map.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_game_map_py - 2020.03.02 at 17h 27m 19s.xml">
-      <configuration name="Unittests in test_game_map.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 21h 38m 10s.xml">
       <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
     </history-entry>
@@ -339,6 +335,18 @@
     <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 22h 08m 02s.xml">
       <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 22h 42m 42s.xml">
+      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 22h 49m 20s.xml">
+      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 22h 50m 17s.xml">
+      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 22h 50m 49s.xml">
+      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,6 +359,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="9" width="1346" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49824563" visible="true" weight="0.1556568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -443,7 +452,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mktest2" />
     <MESSAGE value="生命游戏game_map测试文件test_game_map前五个函数的测试程序" />
-    <option name="LAST_COMMIT_MESSAGE" value="生命游戏game_map测试文件test_game_map前五个函数的测试程序" />
+    <MESSAGE value="生命游戏game_map测试文件test_game_map前六个函数的测试程序" />
+    <option name="LAST_COMMIT_MESSAGE" value="生命游戏game_map测试文件test_game_map前六个函数的测试程序" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/calculate-master/calculate.py" />
@@ -612,15 +622,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game_map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1121">
+        <state relative-caret-position="-2256">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_game_map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="45" column="80" selection-start-line="45" selection-start-column="80" selection-end-line="45" selection-end-column="80" />
+        <state relative-caret-position="-798">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
