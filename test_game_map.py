@@ -42,7 +42,7 @@ class TestGameMap(TestCase):
 
     @mock.patch('game_map.GameMap.get_neighbor_count', new=mock.Mock(return_value=8))
     def test_get_neighbor_count_map(self):
-        neighbor_count = [[8] * 3] * 4
+        neighbor_count = [[8] * 5] * 5
         self.assertEqual(neighbor_count, self.game_map.get_neighbor_count_map())
 
     def test_set_map(self):
