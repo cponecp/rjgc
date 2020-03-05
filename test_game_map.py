@@ -29,10 +29,21 @@ class TestGameMap(TestCase):
         self.assertEqual(1, self.game_map.get(0, 0), "通过set修改后值为1")
 
     def test_get_neighbor_count(self):
-        self.fail()
+        self.game_map.cells = [[1] * 5] * 5
+        neighbor_count = [[8] * 5] * 5
+        for i in range(0, 5):
+            for j in range(0, 5):
+                self.assertEqual(neighbor_count[i][j], self.game_map.get_neighbor_count(i, j), "周围有8个活的")
+        self.game_map.cells = [[0] * 5] * 5
+        neighbor_count = [[0] * 5] * 5
+        for i in range(0, 5):
+            for j in range(0, 5):
+                self.assertEqual(neighbor_count[i][j], self.game_map.get_neighbor_count(i, j), "周围有0个活的")
 
+    @mock.patch('game_map.GameMap.get_neighbor_count', new=mock.Mock(return_value=8))
     def test_get_neighbor_count_map(self):
-        self.fail()
+        neighbor_count = [[8] * 3] * 4
+        self.assertEqual(neighbor_count, self.game_map.get_neighbor_count_map())
 
     def test_set_map(self):
         self.fail()

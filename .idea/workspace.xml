@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="145e4591-8e82-488c-b0dd-d8dba05cf519" name="Default Changelist" comment="生命游戏">
-      <change beforePath="$PROJECT_DIR$/.idea/rjgc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rjgc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="145e4591-8e82-488c-b0dd-d8dba05cf519" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/test_game_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_game_map.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game_map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1007">
+            <state relative-caret-position="-1121">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_game_map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="228">
+              <caret line="45" column="80" selection-start-line="45" selection-start-column="80" selection-end-line="45" selection-end-column="80" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -299,19 +298,17 @@
       <option name="project" value="LOCAL" />
       <updated>1583034750502</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="生命游戏game_map测试文件test_game_map前五个函数的测试程序">
+      <created>1583416576761</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583416576761</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_game_map_TestGameMap_test_print_map - 2020.03.02 at 16h 42m 52s.xml">
-      <configuration name="Unittests for test_game_map.TestGameMap.test_print_map" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_game_map_TestGameMap_test_print_map - 2020.03.02 at 16h 49m 22s.xml">
-      <configuration name="Unittests for test_game_map.TestGameMap.test_print_map" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.02 at 16h 50m 14s.xml">
-      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.02 at 16h 57m 55s.xml">
       <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
     </history-entry>
@@ -333,6 +330,15 @@
     <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 21h 49m 24s.xml">
       <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 21h 54m 31s.xml">
+      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 22h 06m 39s.xml">
+      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 22h 08m 02s.xml">
+      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -345,7 +351,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="9" width="1346" height="688" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49824563" visible="true" weight="0.1556568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -437,7 +442,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mktest2" />
-    <option name="LAST_COMMIT_MESSAGE" value="mktest2" />
+    <MESSAGE value="生命游戏game_map测试文件test_game_map前五个函数的测试程序" />
+    <option name="LAST_COMMIT_MESSAGE" value="生命游戏game_map测试文件test_game_map前五个函数的测试程序" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/calculate-master/calculate.py" />
@@ -606,15 +612,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game_map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1007">
+        <state relative-caret-position="-1121">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_game_map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="228">
+          <caret line="45" column="80" selection-start-line="45" selection-start-column="80" selection-end-line="45" selection-end-column="80" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
