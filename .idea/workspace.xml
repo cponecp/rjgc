@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="145e4591-8e82-488c-b0dd-d8dba05cf519" name="Default Changelist" comment="">
+    <list default="true" id="145e4591-8e82-488c-b0dd-d8dba05cf519" name="Default Changelist" comment="代码覆盖率文件">
+      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_game_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_game_map.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,13 +25,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_game_map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-798">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="95">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unittest_and_coverage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,6 +85,7 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/saa.py" />
         <option value="$PROJECT_DIR$/test_game_map.py" />
+        <option value="$PROJECT_DIR$/unittest_and_coverage.py" />
       </list>
     </option>
   </component>
@@ -104,7 +117,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="E:/weixin/pycharm/Scripts/pylint.exe" />
-    <property name="settings.editor.selected.configurable" value="pyconsole" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -123,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_game_map.TestGameMap">
+  <component name="RunManager" selected="Python.unittest_and_coverage">
     <configuration name="saa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="rjgc" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,6 +158,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="unittest_and_coverage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rjgc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest_and_coverage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="unittest_coverage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="rjgc" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,7 +191,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest_coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\project\rjgc\unittest_and_coverage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,20 +214,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_game_map.TestGameMap.test_print_map" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="rjgc" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_game_map.TestGameMap.test_print_map&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests in test_game_map.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="rjgc" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.unittest_and_coverage" />
         <item itemvalue="Python tests.Unittests for test_game_map.TestGameMap" />
         <item itemvalue="Python.unittest_coverage" />
         <item itemvalue="Python.saa" />
         <item itemvalue="Python tests.Unittests in test_game_map.py" />
-        <item itemvalue="Python tests.Unittests for test_game_map.TestGameMap.test_print_map" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +333,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583418390019</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="生命游戏game_map测试文件test_game_map中最后几个函数的测试程序">
+      <created>1583420516777</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583420516777</updated>
+    </task>
+    <task id="LOCAL-00014" summary="unittest_and_coverage.py可在运行单元测试的同时得到代码覆盖率">
+      <created>1583422995084</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1583422995084</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -366,7 +400,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5017544" side_tool="true" weight="0.24981017" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2754386" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46140352" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -453,7 +487,9 @@
     <MESSAGE value="mktest2" />
     <MESSAGE value="生命游戏game_map测试文件test_game_map前五个函数的测试程序" />
     <MESSAGE value="生命游戏game_map测试文件test_game_map前六个函数的测试程序" />
-    <option name="LAST_COMMIT_MESSAGE" value="生命游戏game_map测试文件test_game_map前六个函数的测试程序" />
+    <MESSAGE value="生命游戏game_map测试文件test_game_map中最后几个函数的测试程序" />
+    <MESSAGE value="unittest_and_coverage.py可在运行单元测试的同时得到代码覆盖率" />
+    <option name="LAST_COMMIT_MESSAGE" value="unittest_and_coverage.py可在运行单元测试的同时得到代码覆盖率" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/calculate-master/calculate.py" />
@@ -610,16 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unittest_coverage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game_map.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2256">
@@ -629,10 +655,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_game_map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="95">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_and_coverage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
