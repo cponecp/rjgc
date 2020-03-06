@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="145e4591-8e82-488c-b0dd-d8dba05cf519" name="Default Changelist" comment="代码覆盖率文件">
-      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
+    <list default="true" id="145e4591-8e82-488c-b0dd-d8dba05cf519" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document.txt" beforeDir="false" afterPath="$PROJECT_DIR$/document.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mktest2_optimization.py" beforeDir="false" afterPath="$PROJECT_DIR$/mktest2_optimization.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,34 +17,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game_map.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mktest2_optimization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2256">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_game_map.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="11">
+              <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#72#81#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/unittest_and_coverage.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_FindWord.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="101">
+              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,13 +71,16 @@
         <option value="$PROJECT_DIR$/document.txt" />
         <option value="$PROJECT_DIR$/query.txt" />
         <option value="$PROJECT_DIR$/mktest2_opotimization.py" />
-        <option value="$PROJECT_DIR$/mktest2_optimization.py" />
         <option value="$PROJECT_DIR$/life_game.py" />
         <option value="$PROJECT_DIR$/life_game/main.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/saa.py" />
         <option value="$PROJECT_DIR$/test_game_map.py" />
         <option value="$PROJECT_DIR$/unittest_and_coverage.py" />
+        <option value="$PROJECT_DIR$/test_find_word.py" />
+        <option value="$PROJECT_DIR$/test_FindWord.py" />
+        <option value="$PROJECT_DIR$/wqe.py" />
+        <option value="$PROJECT_DIR$/mktest2_optimization.py" />
       </list>
     </option>
   </component>
@@ -100,6 +95,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,7 +107,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,8 +131,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.unittest_and_coverage">
-    <configuration name="saa" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_FindWord.TestFindWord.test_find_word">
+    <configuration name="wqe" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="rjgc" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,7 +144,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/saa.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wqe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,49 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="unittest_and_coverage" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="rjgc" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest_and_coverage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="unittest_coverage" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="rjgc" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\project\rjgc\unittest_and_coverage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_game_map.TestGameMap" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_FindWord.TestFindWord" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="rjgc" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,11 +163,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_game_map.TestGameMap&quot;" />
+      <option name="_new_target" value="&quot;test_FindWord.TestFindWord&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_game_map.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_FindWord.TestFindWord.test_find_word" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="rjgc" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -224,17 +177,45 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_game_map.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_FindWord.TestFindWord.test_find_word&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_find_word.TestFindWord.test_find_word" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="rjgc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_find_word.TestFindWord.test_find_word&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_find_word.TestFind_word" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="rjgc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_find_word.TestFind_word&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.unittest_and_coverage" />
-        <item itemvalue="Python tests.Unittests for test_game_map.TestGameMap" />
-        <item itemvalue="Python.unittest_coverage" />
-        <item itemvalue="Python.saa" />
-        <item itemvalue="Python tests.Unittests in test_game_map.py" />
+        <item itemvalue="Python tests.Unittests for test_FindWord.TestFindWord.test_find_word" />
+        <item itemvalue="Python tests.Unittests for test_FindWord.TestFindWord" />
+        <item itemvalue="Python.wqe" />
+        <item itemvalue="Python tests.Unittests for test_find_word.TestFindWord.test_find_word" />
+        <item itemvalue="Python tests.Unittests for test_find_word.TestFind_word" />
       </list>
     </recent_temporary>
   </component>
@@ -347,39 +328,46 @@
       <option name="project" value="LOCAL" />
       <updated>1583422995084</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="代码覆盖率文件">
+      <created>1583459306837</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1583459306837</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 21h 38m 10s.xml">
-      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    <history-entry file="Unittests_for_test_FindWord_TestFindWord - 2020.03.06 at 13h 46m 11s.xml">
+      <configuration name="Unittests for test_FindWord.TestFindWord" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 21h 41m 22s.xml">
-      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    <history-entry file="Unittests_for_test_FindWord_TestFindWord - 2020.03.06 at 13h 56m 32s.xml">
+      <configuration name="Unittests for test_FindWord.TestFindWord" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 21h 49m 24s.xml">
-      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    <history-entry file="Unittests_for_test_FindWord_TestFindWord - 2020.03.06 at 13h 57m 13s.xml">
+      <configuration name="Unittests for test_FindWord.TestFindWord" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 21h 54m 31s.xml">
-      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    <history-entry file="Unittests_for_test_FindWord_TestFindWord - 2020.03.06 at 14h 11m 18s.xml">
+      <configuration name="Unittests for test_FindWord.TestFindWord" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 22h 06m 39s.xml">
-      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    <history-entry file="Unittests_for_test_FindWord_TestFindWord_test_find_word - 2020.03.06 at 14h 19m 10s.xml">
+      <configuration name="Unittests for test_FindWord.TestFindWord.test_find_word" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 22h 08m 02s.xml">
-      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    <history-entry file="Unittests_for_test_FindWord_TestFindWord_test_find_word - 2020.03.06 at 14h 19m 40s.xml">
+      <configuration name="Unittests for test_FindWord.TestFindWord.test_find_word" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 22h 42m 42s.xml">
-      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    <history-entry file="Unittests_for_test_FindWord_TestFindWord_test_find_word - 2020.03.06 at 14h 20m 36s.xml">
+      <configuration name="Unittests for test_FindWord.TestFindWord.test_find_word" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 22h 49m 20s.xml">
-      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    <history-entry file="Unittests_for_test_FindWord_TestFindWord_test_find_word - 2020.03.06 at 14h 31m 38s.xml">
+      <configuration name="Unittests for test_FindWord.TestFindWord.test_find_word" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 22h 50m 17s.xml">
-      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    <history-entry file="Unittests_for_test_FindWord_TestFindWord_test_find_word - 2020.03.06 at 15h 22m 28s.xml">
+      <configuration name="Unittests for test_FindWord.TestFindWord.test_find_word" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_game_map_TestGameMap - 2020.03.05 at 22h 50m 49s.xml">
-      <configuration name="Unittests for test_game_map.TestGameMap" configurationId="tests" />
+    <history-entry file="Unittests_for_test_FindWord_TestFindWord - 2020.03.06 at 15h 26m 58s.xml">
+      <configuration name="Unittests for test_FindWord.TestFindWord" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -400,7 +388,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5017544" side_tool="true" weight="0.24981017" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46140352" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.53157896" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -489,7 +477,8 @@
     <MESSAGE value="生命游戏game_map测试文件test_game_map前六个函数的测试程序" />
     <MESSAGE value="生命游戏game_map测试文件test_game_map中最后几个函数的测试程序" />
     <MESSAGE value="unittest_and_coverage.py可在运行单元测试的同时得到代码覆盖率" />
-    <option name="LAST_COMMIT_MESSAGE" value="unittest_and_coverage.py可在运行单元测试的同时得到代码覆盖率" />
+    <MESSAGE value="代码覆盖率文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码覆盖率文件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/calculate-master/calculate.py" />
@@ -519,54 +508,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readmee.py" />
-    <entry file="file://$PROJECT_DIR$/mktest2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="24" column="16" lean-forward="true" selection-end-line="57" />
-          <folding>
-            <element signature="e#72#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/document.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="24189" selection-start-line="24189" selection-end-line="24191" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/weixin/pycharm/Lib/profile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="421" selection-start-line="421" selection-end-line="421" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mktest2_performance_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-          <folding>
-            <element signature="e#72#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mktest2_optimization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#72#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,13 +540,6 @@
     <entry file="file://$PROJECT_DIR$/life_game/life_game.py" />
     <entry file="file://$PROJECT_DIR$/life_game/game_map.py" />
     <entry file="file://$PROJECT_DIR$/life_game/main.py" />
-    <entry file="file://E:/weixin/pycharm/Lib/unittest/mock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="1203" selection-start-line="1203" selection-end-line="1203" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/weixin/pycharm/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -636,39 +574,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/saa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game_map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2256">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_game_map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/saa.py" />
     <entry file="file://$PROJECT_DIR$/unittest_and_coverage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/document.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mktest2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="43" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+          <folding>
+            <element signature="e#72#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_find_word.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/weixin/pycharm/Lib/unittest/mock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="1420" selection-start-line="1420" selection-end-line="1420" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mktest2_performance_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+          <folding>
+            <element signature="e#72#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_game_map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wqe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game_map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_FindWord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mktest2_optimization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+          <folding>
+            <element signature="e#72#81#0" expanded="true" />
           </folding>
         </state>
       </provider>
