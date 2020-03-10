@@ -1,24 +1,29 @@
+'''计算器'''
 import re
 import sys
 
 
 class Calculator(object):
+    '''计算器所用函数'''
     def __init__(self, args1):
-        if (args1[0] == "'" and args1[len(args1) - 1] == "'") or (args1[0] == '"' and args1[len(args1) - 1] == '"'):
+        if (args1[0] == "'" and args1[len(args1) - 1] == "'") \
+                or (args1[0] == '"' and args1[len(args1) - 1] == '"'):
             args1 = args1.strip("'")
             args1 = args1.strip('"')
-        self.expression = re.findall('\d+\.*\d*|\+|\-|\*|\/|\^|\(|\)', args1)
-        self.other_char = re.findall('[^(\d+\.*\d*|\+|\-|\*|\/|\^|\(|\)|\s)]', args1)
+        self.expression = re.findall(r'\d+\.*\d*|\+|\-|\*|\/|\^|\(|\)', args1)
+        self.other_char = re.findall(r'[^(\d+\.*\d*|\+|\-|\*|\/|\^|\(|\)|\s)]', args1)
 
     def input_right(self):
+        '''判断输入是否正确'''
         if len(self.other_char) != 0:
             print('INPUT ERROR')
             return 0
         return 1
 
     def format_right(self):
+        '''判断括号是否符合要求'''
         left_brackets = []
-        right_brackets =[]
+        right_brackets = []
         for i in range(len(self.expression)):
             if self.expression[i] == '(':
                 left_brackets.append(i)
@@ -28,7 +33,8 @@ class Calculator(object):
         if len(left_brackets) != len(right_brackets):
             format0 = 0
         else:
-            for i in range(len(left_brackets)):
+            len_left_brackets = len(left_brackets)
+            for i in range(len_left_brackets):
                 if left_brackets[i] > right_brackets[i]:
                     format0 = 0
         if format0 == 0:
@@ -37,6 +43,7 @@ class Calculator(object):
         return 1
 
     def calculate(self):
+        '''判断分母是否为0，不为0时计算并返回计算结果'''
         for i in range(len(self.expression) - 1):
             if self.expression[i] == '/' and self.expression[i + 1] == '0':
                 return 'VALUE ERROR'
@@ -50,6 +57,7 @@ class Calculator(object):
             return self.calculate()
 
     def print_answer(self, answer1):
+        '''打印结果'''
         if answer1 == 'VALUE ERROR':
             print('VALUE ERROR')
         else:
@@ -57,9 +65,9 @@ class Calculator(object):
 
 
 if __name__ == '__main__':
-    args = ' '.join(sys.argv[1:])
-    c = Calculator(args)
-    if c.input_right():
-        if c.format_right():
-            answer = c.calculate()
-            c.print_answer(answer)
+    ARGS = ' '.join(sys.argv[1:])
+    C = Calculator(ARGS)
+    if C.input_right():
+        if C.format_right():
+            ANSWER = C.calculate()
+            C.print_answer(ANSWER)
