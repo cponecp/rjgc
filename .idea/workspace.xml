@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="145e4591-8e82-488c-b0dd-d8dba05cf519" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mktest0.py" beforeDir="false" afterPath="$PROJECT_DIR$/mktest0.py" afterDir="false" />
-    </list>
+    <list default="true" id="145e4591-8e82-488c-b0dd-d8dba05cf519" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+            <state relative-caret-position="798">
+              <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -84,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="10" />
     <option name="y" value="9" />
     <option name="width" value="1346" />
@@ -131,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_calculator.TestCalculator">
+  <component name="RunManager" selected="Python tests.Unittests for test_calculator.TestCalculator.test_print_answer">
     <configuration name="Unittests for test_calculator.TestCalculator" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="rjgc" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,8 +201,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_calculator.TestCalculator" />
         <item itemvalue="Python tests.Unittests for test_calculator.TestCalculator.test_print_answer" />
+        <item itemvalue="Python tests.Unittests for test_calculator.TestCalculator" />
         <item itemvalue="Python tests.Unittests for test_calculator.TestCalculator.test_calculate" />
         <item itemvalue="Python tests.Unittests for test_calculator.TestCalculator.test_format_right" />
         <item itemvalue="Python tests.Unittests for test_calculator.TestCalculator.test_input_right" />
@@ -335,19 +332,17 @@
       <option name="project" value="LOCAL" />
       <updated>1583480188040</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="计算器程序的单元测试及改进">
+      <created>1583487531612</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1583487531612</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_calculator_TestCalculator_test_format_right - 2020.03.06 at 17h 16m 03s.xml">
-      <configuration name="Unittests for test_calculator.TestCalculator.test_format_right" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_calculator_TestCalculator_test_calculate - 2020.03.06 at 17h 16m 07s.xml">
-      <configuration name="Unittests for test_calculator.TestCalculator.test_calculate" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_calculator_TestCalculator_test_calculate - 2020.03.06 at 17h 20m 16s.xml">
-      <configuration name="Unittests for test_calculator.TestCalculator.test_calculate" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_calculator_TestCalculator_test_calculate - 2020.03.06 at 17h 21m 29s.xml">
       <configuration name="Unittests for test_calculator.TestCalculator.test_calculate" configurationId="tests" />
     </history-entry>
@@ -369,6 +364,15 @@
     <history-entry file="Unittests_for_test_calculator_TestCalculator_test_print_answer - 2020.03.06 at 17h 36m 23s.xml">
       <configuration name="Unittests for test_calculator.TestCalculator.test_print_answer" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_calculator_TestCalculator_test_print_answer - 2020.03.06 at 17h 36m 34s.xml">
+      <configuration name="Unittests for test_calculator.TestCalculator.test_print_answer" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_calculator_TestCalculator - 2020.03.06 at 17h 36m 42s.xml">
+      <configuration name="Unittests for test_calculator.TestCalculator" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_calculator_TestCalculator_test_print_answer - 2020.03.07 at 12h 41m 01s.xml">
+      <configuration name="Unittests for test_calculator.TestCalculator.test_print_answer" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -380,7 +384,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="9" width="1346" height="688" extended-state="0" />
+    <frame x="10" y="9" width="1346" height="688" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49824563" visible="true" weight="0.1556568" />
@@ -388,7 +392,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5017544" side_tool="true" weight="0.24981017" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4280702" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40877193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -479,7 +483,8 @@
     <MESSAGE value="unittest_and_coverage.py可在运行单元测试的同时得到代码覆盖率" />
     <MESSAGE value="代码覆盖率文件" />
     <MESSAGE value="单词查找程序的单元测试及修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="单词查找程序的单元测试及修改" />
+    <MESSAGE value="计算器程序的单元测试及改进" />
+    <option name="LAST_COMMIT_MESSAGE" value="计算器程序的单元测试及改进" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/calculate-master/calculate.py" />
@@ -683,8 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+        <state relative-caret-position="798">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
