@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="145e4591-8e82-488c-b0dd-d8dba05cf519" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mktest.py" beforeDir="false" afterPath="$PROJECT_DIR$/mktest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mktest0.py" beforeDir="false" afterPath="$PROJECT_DIR$/mktest0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_calculator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -332,13 +329,17 @@
       <option name="project" value="LOCAL" />
       <updated>1583487531612</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="计算器程序代码规范性检查及修改">
+      <created>1583839126400</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1583839126400</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_calculator_TestCalculator_test_print_answer - 2020.03.06 at 17h 31m 12s.xml">
-      <configuration name="Unittests for test_calculator.TestCalculator.test_print_answer" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_calculator_TestCalculator_test_print_answer - 2020.03.06 at 17h 32m 27s.xml">
       <configuration name="Unittests for test_calculator.TestCalculator.test_print_answer" configurationId="tests" />
     </history-entry>
@@ -366,6 +367,9 @@
     <history-entry file="Unittests_in_test_calculator_py - 2020.03.10 at 19h 16m 45s.xml">
       <configuration name="Unittests in test_calculator.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_calculator_py - 2020.03.10 at 19h 18m 16s.xml">
+      <configuration name="Unittests in test_calculator.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,7 +389,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5017544" side_tool="true" weight="0.24981017" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40877193" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40877193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -477,7 +481,8 @@
     <MESSAGE value="代码覆盖率文件" />
     <MESSAGE value="单词查找程序的单元测试及修改" />
     <MESSAGE value="计算器程序的单元测试及改进" />
-    <option name="LAST_COMMIT_MESSAGE" value="计算器程序的单元测试及改进" />
+    <MESSAGE value="计算器程序代码规范性检查及修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="计算器程序代码规范性检查及修改" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/calculate-master/calculate.py" />
