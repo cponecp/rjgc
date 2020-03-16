@@ -1,6 +1,7 @@
 '''计算器'''
 import re
 import sys
+import math
 
 
 class Calculator(object):
@@ -51,9 +52,95 @@ class Calculator(object):
             result = self.expression[0]
             return result
         else:
-            result1 = eval(''.join(self.expression))
-            self.expression.clear()
-            self.expression.append(str(result1))
+            max_left_bracket = -1
+            min_right_bracket = -1
+            for i in range(len(self.expression)):
+                if self.expression[i] == '(':
+                    max_left_bracket = i
+            for i in range(max_left_bracket, len(self.expression)):
+                if self.expression[i] == ')' and min_right_bracket == -1:
+                    min_right_bracket = i
+            delete_data = 0
+            if max_left_bracket != -1:
+                i = max_left_bracket + 1
+                while i < min_right_bracket:
+                    if self.expression[i] == "^":
+                        self.expression[i-1] = str(math.pow(float(self.expression[i-1]), float(self.expression[i+1])))
+                        self.expression.pop(i + 1)
+                        self.expression.pop(i)
+                        delete_data += 2
+                        i -= 2
+                    i += 1
+                i = max_left_bracket + 1
+                while i < min_right_bracket - delete_data:
+                    if self.expression[i] == "*":
+                        self.expression[i-1] = str(float(self.expression[i-1]) * float(self.expression[i+1]))
+                        self.expression.pop(i + 1)
+                        self.expression.pop(i)
+                        delete_data += 2
+                        i -= 2
+                    if self.expression[i] == "/":
+                        self.expression[i-1] = str(float(self.expression[i-1]) / float(self.expression[i+1]))
+                        self.expression.pop(i + 1)
+                        self.expression.pop(i)
+                        delete_data += 2
+                        i -= 2
+                    i += 1
+                i = max_left_bracket + 1
+                while i < min_right_bracket - delete_data:
+                    if self.expression[i] == "+":
+                        self.expression[i-1] = str(float(self.expression[i-1]) + float(self.expression[i+1]))
+                        self.expression.pop(i + 1)
+                        self.expression.pop(i)
+                        delete_data += 2
+                        i -= 2
+                    if self.expression[i] == "-":
+                        self.expression[i-1] = str(float(self.expression[i-1]) - float(self.expression[i+1]))
+                        self.expression.pop(i + 1)
+                        self.expression.pop(i)
+                        delete_data += 2
+                        i -= 2
+                    i += 1
+                self.expression.pop(max_left_bracket + 2)
+                self.expression.pop(max_left_bracket)
+            else:
+                i = 0
+                while i < len(self.expression):
+                    if self.expression[i] == "^":
+                        self.expression[i-1] = str(math.pow(float(self.expression[i-1]), float(self.expression[i+1])))
+                        self.expression.pop(i + 1)
+                        self.expression.pop(i)
+                        delete_data += 2
+                        i -= 2
+                    i += 1
+                i = 0
+                while i < len(self.expression):
+                    if self.expression[i] == "*":
+                        self.expression[i-1] = str(float(self.expression[i-1]) * float(self.expression[i+1]))
+                        self.expression.pop(i + 1)
+                        self.expression.pop(i)
+                        delete_data += 2
+                        i -= 2
+                    if self.expression[i] == "/":
+                        self.expression[i-1] = str(float(self.expression[i-1]) / float(self.expression[i+1]))
+                        self.expression.pop(i + 1)
+                        self.expression.pop(i)
+                        delete_data += 2
+                        i -= 2
+                    i += 1
+                i = 0
+                while i < len(self.expression):
+                    if self.expression[i] == "+":
+                        self.expression[i-1] = str(float(self.expression[i-1]) + float(self.expression[i+1]))
+                        self.expression.pop(i + 1)
+                        self.expression.pop(i)
+                        i -= 2
+                    if self.expression[i] == "-":
+                        self.expression[i-1] = str(float(self.expression[i-1]) - float(self.expression[i+1]))
+                        self.expression.pop(i + 1)
+                        self.expression.pop(i)
+                        i -= 2
+                    i += 1
             return self.calculate()
 
     def print_answer(self, answer1):
